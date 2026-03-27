@@ -7,5 +7,7 @@ terraform {
   }
 
   backend "gcs" {
+    bucket  = "magos-tfstate-staging"
+    prefix  = "terraform/state"
   }
 }
