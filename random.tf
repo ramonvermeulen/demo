@@ -1,3 +1,3 @@
 resource "random_id" "server" {
-  byte_length = 2
+  byte_length = 6
 }
